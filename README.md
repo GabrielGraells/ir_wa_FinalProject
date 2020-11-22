@@ -13,7 +13,7 @@
 	* Anonymize users IDs [ ]
  
  * ### Inverted-index [ ]
- ** Important ! ** : Do not only use the terms in the tweet. Other fields in tweet could be use for search (metada).
+ **Important !** : Do not only use the terms in the tweet. Other fields in tweet could be use for search (metada).
   {
 	   Term_id_1: [document_1, document_2, document_4],
 	   Term_id_2: [document_1, document_3, document_5, document_6], 
@@ -21,10 +21,10 @@
   }
   ** Query Return **: [tweet, username, date, hashtags, like, retweets, urls]
   
-  * ### Ranking Score
-  ** Return the top-20 docs given query **
-  	* **TDF-ID + cosine-sim** [ ]
-	* **Your-score + cosine-sim** [ ]
+* ### Ranking Score
+**Return the top-20 docs given query**
+* **TDF-ID + cosine-sim** [ ]
+* **Your-score + cosine-sim** [ ]
 
 * ### Command line program [ ]
 * ### Report [ ]
