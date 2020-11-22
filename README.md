@@ -23,6 +23,7 @@
 * ### Ranking Score
 	* **TDF-ID + cosine-sim** [ ]
 	* **Your-score + cosine-sim** [ ]
+	
 **Return the top-20 docs given query**
 
 * ### Command line program [ ]
