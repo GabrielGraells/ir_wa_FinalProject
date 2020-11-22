@@ -21,9 +21,9 @@
   ** Query Return **: [tweet, username, date, hashtags, like, retweets, urls]
   
 * ### Ranking Score
-**Return the top-20 docs given query**
 	* **TDF-ID + cosine-sim** [ ]
 	* **Your-score + cosine-sim** [ ]
+**Return the top-20 docs given query**
 
 * ### Command line program [ ]
 * ### Report [ ]
