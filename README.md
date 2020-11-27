@@ -14,7 +14,7 @@
 	* Stemming [X]
 	* Anonymize users IDs [ ]
  
- * ### Inverted-index [ ]
+ * ### Inverted-index [X]
  
  **Important !** : Do not only use the terms in the tweet. Other fields in tweet could be use for search (metada).
  
