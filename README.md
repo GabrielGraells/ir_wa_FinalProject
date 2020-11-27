@@ -2,6 +2,9 @@
 
 ## 1. Data Collection [ ]
 * ### Twitter Scrapper [ ]
+	* News Media Account [X]
+	* Tags [ ]
+
 **Keywords**: [#election #trump #vote #democrats #donaldtrump #voteblue #resist #biden #politics #coronavirus #republican #joebiden #liberal #america #usa #democrat #guncontrol #trumpsucks #bluewave #berniesanders #impotus #bernie #trumptreason]
 
 ## 2. Build the Search Engine [ ]
