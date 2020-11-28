@@ -24,7 +24,7 @@
 	   etc...
   }
   
-  **Query Return**: [tweet, username, date, hashtags, like, retweets, urls]
+  **Query Return**: [tweet, **username**, date, **hashtags**, like, retweets, urls]
   
 * ### Ranking Score
 	* **TDF-ID + cosine-sim** [X]
