@@ -1,9 +1,10 @@
 # ir_wa_FinalProject
 
-## 1. Data Collection [ ]
-* ### Twitter Scrapper [ ]
+## 1. Data Collection [X]
+* ### Twitter Scrapper [X]
 	* News Media Account [X]
-	* Tags [ ]
+	* Tags [X]
+	* Political Agents [X]
 
 **Keywords**: [#election #trump #vote #democrats #donaldtrump #voteblue #resist #biden #politics #coronavirus #republican #joebiden #liberal #america #usa #democrat #guncontrol #trumpsucks #bluewave #berniesanders #impotus #bernie #trumptreason]
 
