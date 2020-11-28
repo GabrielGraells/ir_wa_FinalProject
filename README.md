@@ -12,7 +12,7 @@
 	* Removing stop-words [X]
 	* Removing punctation [X]
 	* Stemming [X]
-	* Anonymize users IDs [ ]
+	* Anonymize users IDs [X]
  
  * ### Inverted-index [X]
  
