@@ -1,4 +1,4 @@
-# ir_wa_FinalProject
+# IR_WA_FinalProject
 
 ## 1. Data Collection [X]
 * ### Twitter Scrapper [X]
