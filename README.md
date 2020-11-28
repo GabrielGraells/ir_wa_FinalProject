@@ -6,8 +6,6 @@
 	* Tags [X]
 	* Political Agents [X]
 
-**Keywords**: [#election #trump #vote #democrats #donaldtrump #voteblue #resist #biden #politics #coronavirus #republican #joebiden #liberal #america #usa #democrat #guncontrol #trumpsucks #bluewave #berniesanders #impotus #bernie #trumptreason]
-
 ## 2. Build the Search Engine [ ]
 * ### Prepocessing [X]
 	* Removing stop-words [X]
