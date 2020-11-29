@@ -31,7 +31,7 @@
 	
 **Return the top-20 docs given query**
 
-* ### Command line program [ ]
+* ### Command line program [X]
 * ### Report [ ]
 	* Output Analysis - Notebook [ ]
 	* Output Diversification - Notebook [ ]
