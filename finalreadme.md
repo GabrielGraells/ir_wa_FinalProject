@@ -24,7 +24,7 @@ This will initialize the program by constructing the index and the requirements 
 ````console
 foo@bar:~/SearchEngine$ twitterSE --method [method]
 ````
-* **--method**: takes to values tf-idf or word2vec. Default: tf-idf
+* **--method**: Ranking method. Takes to values tf-idf or word2vec. Default: tf-idf
 
 ### Search a query
 Once the program has initialized you can run queries. The following will be displayed in command line.
