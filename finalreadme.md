@@ -28,6 +28,12 @@ foo@bar:~/SearchEngine$ twitterSE --method [method]
 
 ### Search a query
 Once the program has initialized you can run queries. The following will be displayed in command line.
+```
+######################################################
+TYPE 'X' TO EXIT.
+Insert query:
+
+```
 
 
 ### Help
