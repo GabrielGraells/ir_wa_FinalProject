@@ -11,7 +11,7 @@ A search engine that searches tweets related to **USA elections 2020** given a q
   It will install the CLI programmed named **twitterSE**.
 
 * Requirements
-  * You can try to run it directly if you already have all Python modules used in practices installed.
+  * You can try to execute it directly if you already have all Python modules used in practices installed.
   * Or you can connect to the **virtual enviroment**.
   ```console
   foo@bar:~/SearchEngine$ . venv/bin/activate 
