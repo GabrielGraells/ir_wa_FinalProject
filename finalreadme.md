@@ -2,7 +2,7 @@
 A search engine that searches tweets related to **USA elections 2020** given a query.
 
 ## Installation
-* Download the folder.
+* Download the folder *SearchEngine*.
 
 * Open the folder in command line promp and install the program. **NOTE**: If you do not want to install it on your computer continue reading to see how to connect to the virtual enviroment.
   ```console
