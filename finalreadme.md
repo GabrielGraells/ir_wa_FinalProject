@@ -32,7 +32,8 @@ Once the program has initialized you can run queries. The following will be disp
 ######################################################
 TYPE 'X' TO EXIT.
 Insert query:
-
+[your_query]
+######################################################
 ```
 
 
