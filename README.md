@@ -6,7 +6,7 @@
 	* Tags [X]
 	* Political Agents [X]
 
-## 2. Build the Search Engine [ ]
+## 2. Build the Search Engine [X]
 * ### Prepocessing [X]
 	* Removing stop-words [X]
 	* Removing punctation [X]
@@ -27,17 +27,17 @@
   
 * ### Ranking Score
 	* **TDF-ID + cosine-sim** [X]
-	* **Your-score + cosine-sim** [ ]
+	* **Your-score + cosine-sim** [X]
 	
 **Return the top-20 docs given query**
 
 * ### Command line program [X]
 * ### Report [ ]
-	* Output Analysis - Notebook [ ]
-	* Output Diversification - Notebook [ ]
+	* Output Analysis - Notebook [X]
+	* Output Diversification - Notebook [X]
 	* Link Analysis - Notebook[ ]
-	* Section 1 - Data collection [ ]
-	* Section 2 - Search Engine [ ]
+	* Section 1 - Data collection [X]
+	* Section 2 - Search Engine [X]
 	* Section 3 - RQs [ ]
 
 * ### Github Repository [ ]
