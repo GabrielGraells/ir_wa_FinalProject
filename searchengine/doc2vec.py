@@ -18,7 +18,7 @@ class doc2vec(object):
     self.data_Final = data
     
     #Processed data
-    self.data = pd.read_csv("data/w2v_processed.csv")
+    self.data = pd.read_csv("data/d2v_processed.csv")
     
     #Init NLP
     self.nlp = spacy.load("en_core_web_sm",disable=["ner","parser"])
@@ -77,7 +77,7 @@ class doc2vec(object):
     
     for index, id in enumerate(ids):
         doc = self.data_Final[self.data_Final["id"] == id]
-        tweet, date, author, retweets, favorites = self.parsers.parser_tweet_results(doc)
+        tweet, date, author, retweets, favorites, url, hashtags = self.parsers.parser_tweet_results(doc)
 
         click.echo("______________________________________________________")
         click.echo(f"Tweet {index}")
@@ -86,6 +86,8 @@ class doc2vec(object):
         click.echo(f"\t·Tweet: {tweet}")
         click.echo(f"\t·Retweets: {retweets}")
         click.echo(f"\t·Favorites: {favorites}")
+        click.echo(f"\t·Hashtags: {hashtags}")
+        click.echo(f"\t·ULR: {url}")
         click.echo("______________________________________________________\n")
         
   def rank(self, query, tag_id):
@@ -103,7 +105,7 @@ class doc2vec(object):
       tag_sim = self.doc2vec_model.docvecs.most_similar([q_vector], topn=20)
 
       # Get Ids
-      ids = [tag_id[id[0]] for id in tag_sim] 
+      ids = [tag_id[id_[0]] for id_ in tag_sim] 
       
       return ids
       

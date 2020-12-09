@@ -92,4 +92,13 @@ class Parsers:
     favorites = favorites.replace("[","")
     favorites = favorites.replace("]","")
 
-    return tweet, date, author, retweets, favorites
+    # URL
+    id = str(doc["id"].values)
+    id = id.replace("[","")
+    id = id.replace("]","")
+    url = f"https://twitter.com/twitter/statuses/{id}"
+
+    #Hashtags
+    hashtags = str(doc["entities.hashtags"].values)
+
+    return tweet, date, author, retweets, favorites, url, hashtags

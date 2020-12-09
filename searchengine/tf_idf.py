@@ -178,7 +178,7 @@ class tf_idf(object):
     for index, id in enumerate(ranked_docs):
       # Get tweet corresponding to id
       doc = self.data[self.data['id'] == id]
-      tweet, date, author, retweets, favorites = self.parsers.parser_tweet_results(doc)
+      tweet, date, author, retweets, favorites, url, hashtags = self.parsers.parser_tweet_results(doc)
     
       click.echo("______________________________________________________")
       click.echo(f"Tweet {index}")
@@ -187,4 +187,6 @@ class tf_idf(object):
       click.echo(f"\t·Tweet: {tweet}")
       click.echo(f"\t·Retweets: {retweets}")
       click.echo(f"\t·Favorites: {favorites}")
+      click.echo(f"\t·Hashtags: {hashtags}")
+      click.echo(f"\t·URL: {url}")
       click.echo("______________________________________________________\n")

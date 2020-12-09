@@ -181,7 +181,7 @@ class word2vec(object):
     
     for index, id in enumerate(ids):
         doc = self.data_Final[self.data_Final["id"] == id]
-        tweet, date, author, retweets, favorites = self.parsers.parser_tweet_results(doc)
+        tweet, date, author, retweets, favorites, url, hashtags = self.parsers.parser_tweet_results(doc)
   
         print("______________________________________________________")
         print(f"Tweet {index}")
@@ -190,4 +190,6 @@ class word2vec(object):
         print(f"\t·Tweet: {tweet}")
         print(f"\t·Retweets: {retweets}")
         print(f"\t·Favorites: {favorites}")
+        print(f"\t·Hashtags: {hashtags}")
+        print(f"\t·URL: {url}")
         print("______________________________________________________\n")

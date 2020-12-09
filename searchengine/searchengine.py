@@ -20,6 +20,7 @@ class SearchEngine(object):
     # Load data
     click.echo("\nLoading Data...")
     self.data = pd.read_csv("data/final_Tweets.csv")
+    print(len(self.data))
     self.numDocs = len(self.data)
     click.echo(f"Total of {self.numDocs} tweets -- Done loading.\n")
     
