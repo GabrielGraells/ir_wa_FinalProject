@@ -46,26 +46,26 @@ foo@bar:~/SearchEngine$ twitterSE --help
 ## Contect in Repository
 ```
 ├── ir_wa_FinalProject
-│   ├── notebook
-│   │   ├── RQ1.ipynb
-|   |   ├── RQ2.ipynb
-|   |   ├── RQ3.ipynb
-|   |   ├── scrapper
-|   |   |   ├── TwitterScrapper.ipynb
-|   |   ├── searchengines_notebooks
-|   |       ├── TF-IDF.ipynb
-|   |       ├── doc2vec.ipynb
-|   |       ├── word2vec.ipynb
-│   ├── other_outputs
-|   |   ├── RQ1_results_DOC2VEC.csv
-|   |   ├── RQ1_results_TF_IDF.csv
-|   |   ├── RQ2_WITH.csv
-|   |   ├── RQ2_WITHOUT.csv
-|   |   ├── screenshoots
-|   |       ├── doc2vec.png
-|   |       ├── tf-idf.png
-|   ├── searchengine
-|   |   ├── venv
-|   |   ├── ...
-|   ├── README.md
+    ├── notebook
+    │   ├── RQ1.ipynb
+    |   ├── RQ2.ipynb
+    |   ├── RQ3.ipynb
+    |   ├── scrapper
+    |   |   ├── TwitterScrapper.ipynb
+    |   ├── searchengines_notebooks
+    |       ├── TF-IDF.ipynb
+    |       ├── doc2vec.ipynb
+    |       ├── word2vec.ipynb
+    ├── other_outputs
+    |   ├── RQ1_results_DOC2VEC.csv
+    |   ├── RQ1_results_TF_IDF.csv
+    |   ├── RQ2_WITH.csv
+    |   ├── RQ2_WITHOUT.csv
+    |   ├── screenshoots
+    |       ├── doc2vec.png
+    |       ├── tf-idf.png
+    ├── searchengine
+    |   ├── venv
+    |   ├── ...
+    ├── README.md
 ```
