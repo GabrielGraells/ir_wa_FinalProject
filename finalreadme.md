@@ -1,3 +1,8 @@
+```
+Gabriel Graells Solé - 205638 
+```
+
+
 # Twitter Search Engine
 A search engine that searches tweets related to **USA elections 2020** given a query.
 
