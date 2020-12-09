@@ -44,6 +44,7 @@ foo@bar:~/SearchEngine$ twitterSE --help
 ````
 
 ## Contect in Repository
+```
 ├── ir_wa_FinalProject
 │   ├── notebook
 │   │   ├── RQ1.ipynb
@@ -67,3 +68,4 @@ foo@bar:~/SearchEngine$ twitterSE --help
 |   |   ├── venv
 |   |   ├── ...
 |   ├── README.md
+```
