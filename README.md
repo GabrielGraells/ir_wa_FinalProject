@@ -1,3 +1,6 @@
+```
+Gabriel Graells Solé - 205638
+```
 # IR_WA_FinalProject
 
 ## 1. Data Collection [X]
