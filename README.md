@@ -1,46 +1,77 @@
 ```
-Gabriel Graells Solé - 205638
+Asfandyar Abbasi - 206995
+Gabriel Graells Solé - 205638 
 ```
-# IR_WA_FinalProject
 
-## 1. Data Collection [X]
-* ### Twitter Scrapper [X]
-	* News Media Account [X]
-	* Tags [X]
-	* Political Agents [X]
 
-## 2. Build the Search Engine [X]
-* ### Prepocessing [X]
-	* Removing stop-words [X]
-	* Removing punctation [X]
-	* Stemming [X]
-	* Anonymize users IDs [X]
- 
- * ### Inverted-index [X]
- 
- **Important !** : Do not only use the terms in the tweet. Other fields in tweet could be use for search (metada).
- 
-  {
-	   Term_id_1: [document_1, document_2, document_4],
-	   Term_id_2: [document_1, document_3, document_5, document_6], 
-	   etc...
-  }
-  
-  **Query Return**: [tweet, **username**, date, **hashtags**, like, retweets, urls]
-  
-* ### Ranking Score
-	* **TDF-ID + cosine-sim** [X]
-	* **Your-score + cosine-sim** [X]
-	
-**Return the top-20 docs given query**
+# Twitter Search Engine
+A search engine that searches tweets related to **USA elections 2020** given a query.
 
-* ### Command line program [X]
-* ### Report [ ]
-	* Output Analysis - Notebook [X]
-	* Output Diversification - Notebook [X]
-	* Link Analysis - Notebook[ ]
-	* Section 1 - Data collection [X]
-	* Section 2 - Search Engine [X]
-	* Section 3 - RQs [ ]
+### Installation
+* Download the folder *SearchEngine*.
 
-* ### Github Repository [X]
+* Open the folder in command line promp and install the program. **NOTE**: If you do not want to install it on your computer continue reading to see how to connect to the virtual enviroment.
+  ```console
+  foo@bar:~/SearchEngine$ pip install --editable .
+  ```
+  It will install the CLI programmed named **twitterSE**.
+
+* Requirements
+  * You can try to execute it directly if you already have all Python modules used in practices installed.
+  * You can also connect to the **virtual enviroment**. **You can download the virtual enviroment from this** [link.](https://drive.google.com/file/d/198Qk3eSxJ2LyHh0sVaxUBFqFesWj0RrC/view?usp=sharing)
+  ```console
+  foo@bar:~/SearchEngine$ . venv/bin/activate 
+  ```
+
+### Usage
+#### Execute the program
+
+This will initialize the program by constructing the index and the requirements for the choosen **method**.
+````console
+foo@bar:~/SearchEngine$ twitterSE --method [method]
+````
+* **--method**: Ranking method. Takes values tf-idf or word2vec. Default: tf-idf
+
+#### Search a query
+Once the program has initialized you can run queries. The following will be displayed in command line.
+```
+######################################################
+TYPE 'X' TO EXIT.
+Insert query:
+[your_query]
+######################################################
+```
+
+
+#### Help
+Run command `--help` to display help.
+````console
+foo@bar:~/SearchEngine$ twitterSE --help
+````
+
+## Contect in Repository
+```
+├── ir_wa_FinalProject
+    ├── notebook
+    │   ├── RQ1.ipynb
+    |   ├── RQ2.ipynb
+    |   ├── RQ3.ipynb
+    |   ├── scrapper
+    |   |   ├── TwitterScrapper.ipynb
+    |   ├── searchengines_notebooks
+    |       ├── TF-IDF.ipynb
+    |       ├── doc2vec.ipynb
+    |       ├── word2vec.ipynb
+    ├── other_outputs
+    |   ├── RQ1_results_DOC2VEC.csv
+    |   ├── RQ1_results_TF_IDF.csv
+    |   ├── RQ2_WITH.csv
+    |   ├── RQ2_WITHOUT.csv
+    |   ├── screenshoots
+    |       ├── doc2vec.png
+    |       ├── tf-idf.png
+    ├── searchengine
+    |   ├── venv
+    |   ├── ...
+    ├── README.md
+```
